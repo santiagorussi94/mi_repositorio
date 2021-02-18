@@ -1,0 +1,9 @@
+$night-mode: false !default;
+
+.block__main_content {
+	@if $night-mode == true {
+		background-color: $color-black !important; 
+		color: $color-cream;
+	}
+}
+

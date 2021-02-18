@@ -1,0 +1,101 @@
+$night-mode: fals;
+
+@import "colors";
+@import "typography";
+@import "socials";
+@import "night_mode";
+
+body {
+    font-family: "Acme", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    color: $font-color;
+    background: url(../../img/bodybg.png) repeat;
+}
+
+
+
+#navigation .navbar-brand img {
+	max-width: 300px;
+}
+
+
+h2 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+.carousel .active {
+    left: 0;
+}
+
+.carousel .active, .carousel .next, .carousel .prev {
+    display: block;
+}
+
+
+.footerli {
+    border-top: 1px solid #CCC;
+    border-bottom: 2px solid #fff;
+    margin-top: 30px;
+}
+
+.bottomCards {
+    padding: 32px;
+}
+
+.btn-primary {
+    background-color: $color-orange;
+    border-color:$color-orange;
+}
+
+.btn-primary:hover {  
+    background-color: $color-black !important;
+    border-color: $color-black;
+}
+
+.btn-primary:active, .btn-primary:focus{
+    @extend .btn-primary:hover;
+}
+
+.block__header {
+    background-color: $color-darkcream;
+  }
+
+.block__main_content {
+    background-color: $color-cream;
+    padding: 33px;
+}
+
+.block__footer {
+    border-bottom: 5px solid $color-green;
+}
+
+.block__menu > div {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 2px; 
+    background-color: $color-white;
+}
+
+.imageMenu {
+   
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.footerli {
+    margin-bottom: 15px;
+}
+
+.contactInfo {
+    padding: 32px;
+    iframe {
+        width: 100%;
+    }
+}

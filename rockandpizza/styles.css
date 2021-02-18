@@ -1,0 +1,91 @@
+
+body {
+    font-family: "Acme", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold
+    line-height: 23px;
+    color: #333333;
+    background: url(img/bodybg.png) repeat;
+}
+
+
+.mainContent {
+    background-color: #eeeee4;
+    padding-top: 30px;
+}
+
+
+#navigationBackground {
+	background-color: #f9e7b5;
+}
+
+#navigation .navbar-brand img {
+	max-width: 300px;
+}
+
+/* fijarse bien
+.hero-unit {
+    clear: both;
+    margin-bottom: 30px;
+    padding: 10px 30px 20px 30px;
+}
+
+.hero-unit h1 {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 64px;
+    margin-bottom: 18px;
+}
+
+*/
+
+h2 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+ /* fijarse bien
+
+.hero-unit p {
+    font-size: 27px;
+    font-weight: 200;
+    line-height: 35px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+ */
+
+
+.carousel .active {
+    left: 0;
+}
+
+.carousel .active, .carousel .next, .carousel .prev {
+    display: block;
+}
+
+#carouselExampleControls {
+	padding: 32px ;
+}
+
+.footerli {
+    border-top: 1px solid #CCC;
+    border-bottom: 2px solid #fff;
+    margin-top: 30px;
+}
+
+.bottomCards {
+    padding: 32px;
+}
